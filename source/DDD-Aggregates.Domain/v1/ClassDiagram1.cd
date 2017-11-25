@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DDD_Aggregates.v1.Domain.Product">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>v1\Product.cs</FileName>
+      <NewMemberFileName>Product.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DDD_Aggregates.v1.Domain.PurchaseOrder">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAIAAAACAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>v1\PurchaseOrder.cs</FileName>
+      <NewMemberFileName>PurchaseOrder.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="LineItems" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DDD_Aggregates.v1.Domain.PurchaseOrderLineItem">
+    <Position X="6" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAABAAAAAAAACAgAAAAAA=</HashCode>
+      <FileName>v1\PurchaseOrderLineItem.cs</FileName>
+      <NewMemberFileName>PurchaseOrderLineItem.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Product" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
